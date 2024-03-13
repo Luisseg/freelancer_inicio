@@ -36,6 +36,11 @@ h1.titulo {
 .nav-bg {
     background-color: var(--secundario);
 }
-/* .navegacion-principal {
-    background-color: var(--secundario);
-} */
+.navegacion-principal {
+    padding: 1rem;
+}
+
+.navegacion-principal a {
+   color: var(--blanco);
+   text-decoration: none;
+}
