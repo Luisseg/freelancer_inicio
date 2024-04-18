@@ -180,43 +180,55 @@
         </section>
       </div>
       <!-- Cierre de la clase de servicios -->
+
+      <section>
+        <h2>Contacto</h2>
+
+        <form class="formulario">
+          <fieldset>
+            <legend>Contáctame rellenando todos los campos</legend>
+
+            <div class="contenedor-campos">
+              <div class="campo">
+                <!-- Ctrl + D para seleccionar varios campos -->
+                <label>Nombre</label>
+                <input class="input-text" type="text" placeholder="Nombre" />
+              </div>
+
+              <div class="campo">
+                <label>Teléfono</label>
+                <input
+                  class="input-text"
+                  type="tel"
+                  placeholder="Tu Teléfono"
+                />
+              </div>
+
+              <div class="campo">
+                <label>Correo</label>
+                <input
+                  class="input-text"
+                  type="email"
+                  placeholder="Tu Correo"
+                />
+              </div>
+
+              <div class="campo">
+                <label>Mensaje</label>
+                <textarea class="input-text"></textarea>
+              </div>
+            </div>
+            <!-- Contenedor de los campos -->
+
+            <div class="alinear-derecha flex">
+              <input class="boton w-100" type="submit" value="Enviar" />
+            </div>
+          </fieldset>
+        </form>
+      </section>
     </main>
 
-    <section>
-      <h2>Contacto</h2>
-
-      <form action="">
-        <fieldset>
-          <legend>Contáctame rellenando todos los campos</legend>
-
-          <div>
-            <label>Nombre</label>
-            <input type="text" placeholder="Nombre" />
-          </div>
-
-          <div>
-            <label>Teléfono</label>
-            <input type="tel" placeholder="Tu Teléfono" />
-          </div>
-
-          <div>
-            <label>Correo</label>
-            <input type="email" placeholder="Tu Correo" />
-          </div>
-
-          <div>
-            <label>Mensaje</label>
-            <textarea></textarea>
-          </div>
-
-          <div>
-            <input type="submit" value="Enviar" />
-          </div>
-        </fieldset>
-      </form>
-    </section>
-
-    <footer>
+    <footer class="footer">
       <p>Todos los derechos reservados Luis Segura</p>
     </footer>
   </body>
